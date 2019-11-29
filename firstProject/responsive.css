@@ -1,0 +1,241 @@
+/* XL Device :1200px. */
+/* @media (min-width: 1200px) and (max-width: 1500px) {
+
+
+} */
+
+/* LG Device :992px. */
+/* @media (min-width: 992px) and (max-width: 1200px) {
+.logo a img{
+	padding-left: 50px;
+}
+
+.mainmenu{
+	margin-right: 20px;
+}
+
+.hero-section-text {
+    text-align: left;
+    font-size: 17px;
+    color: #000000;
+    margin-right: 20px;
+}
+
+.number-area {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    width: 22%;
+
+} */
+
+
+ 
+/* MD Device :768px. */
+/* @media (min-width: 768px) and (max-width: 991px) {
+.logo a img{
+	padding-left: 50px;
+}
+
+.mainmenu{
+	margin-right: 20px;
+}
+
+.hero-section-text {
+    text-align: left;
+    font-size: 17px;
+    color: #000000;
+    margin-right: 20px;
+}
+
+} */
+
+ 
+/* Extra small Device. */
+/* @media (max-width: 767px) {
+
+ 
+} */
+ 
+/* SM Small Device :550px. */
+/* @media only screen and (min-width: 576px) and (max-width: 767px) {
+
+} */
+
+
+ @media only screen and (max-width: 1200px) {
+	.logo{
+		margin-left: 30px;
+	}
+
+	.mainmenu{
+		margin-right: 30px;
+	}
+	.video video {
+	    width: 100%;
+	    text-align: center;
+	}
+}
+
+@media only screen and (max-width:992px) {
+	.logo {
+		margin-left: 30px;
+	}
+
+	.mainmenu {
+		margin-right: 30px;
+	}
+
+    .hero-section-content {
+        margin-left: 0;
+        display: block;
+    }
+
+    .hero-section-content,
+    .hero-section-text{
+        text-align: center;
+    }
+
+    .hero-section-title,
+    .hero-section-text{
+        color: #ffffff;
+    }
+
+    .number {
+        flex: 0 0 40.23%;
+    }
+    .image-gallery {
+    	flex: 50%;
+    	max-width: 50%;
+  }
+  	.video video {
+	    width: 100%;
+	    text-align: center;
+	    height: auto;
+	}
+
+	.service{
+		width: 33.33%;
+	}
+/*	.client-logo{
+		flex: 50%;
+		max-width: 50%;
+	}*/
+    .logo1{
+    	padding: 20px 0;
+    }
+    .wrapper1{
+   		padding: 0 100px;
+   }
+   .ftr-single-content {
+   	margin-right: 50px;
+   }
+   .content-1 {
+   	margin-right: 20px;
+   }
+   .content-3-column-1 {
+    margin-right: 50px;
+}
+}
+
+@media only screen and (max-width:763px) {
+    
+    .image-gallery {
+    	flex: 100%;
+    	max-width: 100%;
+    }
+    .image-gallery img{
+    	width: 100%;
+    	height: auto;
+    }
+    .work-process-section {
+    	height: 760px;
+	}
+    .video video {
+	    width: 100%;
+	    text-align: center;
+	    height: auto;
+	}
+	.service{
+		width: 50%;
+	}
+	.project-section-text {
+    	text-align: center;
+	}
+	.form-group {
+    	flex-direction: column;
+    }
+    .wrapper1{
+   		padding: 0 20px;
+   }
+   .content-1{
+   		padding-left: 15px;
+   		padding-right: 40px;
+   		padding-bottom: 20px;
+   }
+   .mainmenu{
+   	overflow: visible;
+   }
+
+}
+
+@media only screen and (max-width:425px) {
+    .number {
+        flex: 0 0 100%;
+    }
+
+    .image-gallery {
+    	flex: 100%;
+    	max-width: 100%;
+
+    }
+
+    .work-process-text {
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.work-process-section {
+    	height: 605px;
+	}
+	.video video {
+	    width: 100%;
+	    text-align: center;
+	    height: auto;
+	}
+	.row-1 {
+		width: 100%
+		height:auto;
+	}
+	.service {
+		width: 100%;
+	}
+	.testimonial-text {
+    	padding-top: 125px;
+
+	}
+	.project-section-text {
+    	text-align: center;
+	}
+	.form-group {
+    	flex-direction: column;
+    }
+   #fname {
+    	margin-right: 5px;
+	}
+   .wrapper1{
+   	padding: 0 10px;
+   }
+   .skill-section{
+	background-image: url(images/skill.jpg);
+
+}
+
+
+}

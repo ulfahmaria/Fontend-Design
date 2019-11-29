@@ -1,0 +1,696 @@
+/*
+---------------------------------------- 
+common css 
+---------------------------------------- 
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap');
+
+
+body, ul, ol {	
+	margin: 0; 
+	padding: 0; 
+	
+}
+	
+body {
+		font-family: 'Montserrat' , sans-serif; 
+		font-size: 14px; 
+		line-height: 1.5;
+		box-sizing: border-box;
+}
+
+ul, ol{
+	list-style: none;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+a{
+	text-decoration: none;
+}
+
+.wrapper{
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+}
+
+
+
+.clearfix{
+    clear: both;
+    display: table;
+}
+/*
+---------------------------------------- 
+common css 
+---------------------------------------- 
+*/
+
+
+
+/* 
+---------------------------------------- 
+Header css 
+---------------------------------------- 
+*/
+
+.header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 30px 0;
+}
+
+.header .wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header .mainmenu ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.header .mainmenu ul li:last-child{
+    margin-right: 0;
+}
+.header .mainmenu ul li a{
+    text-transform: uppercase;
+    color: #000000;
+}
+.header .mainmenu ul li:hover a,
+.header .mainmenu ul li.active a{
+    color: #10c9c3;
+}
+
+/* 
+---------------------------------------- 
+ End Header css 
+---------------------------------------- 
+*/
+
+
+
+/* 
+---------------------------------------- 
+Hero section
+---------------------------------------- 
+*/
+.hero-section {
+	background: url(images/header1.jpg) no-repeat center center / cover;
+	height: 650px;
+	display: flex;
+	align-items: center;
+}
+
+.hero-section-content{
+	margin-left: auto;
+	display: table;
+}
+
+.hero-section-title{
+	font-size: 38px;
+	font-weight: 700;
+	color: #000000;
+}
+
+.hero-section-text{
+	text-align: left;
+	font-size: 18px;
+	color: #000000;	
+}
+
+.button{
+	background-color: #10c9c3;
+	height: 55px;
+	width: 180px;
+  	border: none;
+  	color: white;
+  	padding: 15px 0;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+}
+/* 
+---------------------------------------- 
+End Hero section
+---------------------------------------- 
+*/
+
+
+/* 
+---------------------------------------- 
+About section
+---------------------------------------- 
+*/
+.about-section{
+	width: 100%;
+	padding: 100px 0;
+	text-align: center;
+	
+}
+
+.about-title h2{
+	font-size: 30px;
+	font-weight: 700;
+	margin: 10px 0;
+}
+
+.about-text{
+	font-size: 16px;
+	margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+
+/* 
+---------------------------------------- 
+End About section
+---------------------------------------- 
+*/
+
+
+
+/* 
+---------------------------------------- 
+ Professional Skill section
+---------------------------------------- 
+*/
+.skill-section{
+	background: url(images/skill.jpg) no-repeat center center / cover;
+	height: 570px;
+	width: 100%;
+}
+
+.content{
+	padding: 165px 0 0 100px;
+}
+
+.skill-title h2{
+	font-size: 30px;
+	font-weight: 700;
+	padding-bottom: 20px;
+}
+
+.title h3{
+	font-size: 12px;
+	padding: 20px 0;
+}
+
+.title-1{
+	padding: 20px 0;
+}
+
+.progress-bar-1{
+	background-color: gray;
+	width: 50%;
+	
+}
+
+.progress-skill{
+	background: #10c9c3;
+	width: 100%;
+	height: 4px;
+}
+
+/*#progress-bar-1 > div{
+	background-color: #10c9c3;
+  	width: 75%;
+  	height: 4px; 	
+}
+
+#progress-bar-2{
+	background-color: gray;
+	width: 500px;
+  	height: 4px;  	
+}
+
+#progress-bar-2 > div{
+	background-color: #10c9c3;
+  	width: 90%;
+  	height: 4px; 	
+}
+
+#progress-bar-3{
+	background-color: gray;
+	width: 500px;
+  	height: 4px; 	
+}
+
+#progress-bar-3 > div{
+	background-color: #10c9c3;
+  	width: 65%;
+  	height: 4px; 	
+}*/
+/* 
+---------------------------------------- 
+End Professional Skill section
+---------------------------------------- 
+*/
+
+
+/* 
+---------------------------------------- 
+Number section
+---------------------------------------- 
+*/
+.number-section{
+    background-color: #10c9c3;
+    color: #ffffff;
+    padding: 100px 0;
+}
+
+.number-area,
+.number-area .number{
+		display: flex;
+}
+
+.number-area{
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    width: 22%;
+}
+
+.number .icon{
+    padding-right: 10px;
+}
+.number .icon a i{
+    color: #ffffff;
+}
+
+/* 
+---------------------------------------- 
+End Number section
+---------------------------------------- 
+*/
+
+
+/* 
+---------------------------------------- 
+work section
+---------------------------------------- 
+*/
+
+.work-section{
+	width: 100%;
+  	display: flex;
+  	flex-wrap: wrap;
+}
+
+.image-gallery {
+	flex: 25%;
+	max-width: 25%;
+
+}
+
+.image-gallery img{
+	width: 100%;
+	height: 360px;
+}
+
+.load-more-section{
+	width: 100%;
+	height: 50px;
+	background-color: #dddddd;
+}
+
+.load {
+	padding-top: 20px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.load a{
+	color: #838383;
+	text-decoration: none;
+}
+/* 
+---------------------------------------- 
+End work section
+---------------------------------------- 
+*/
+
+
+/* 
+---------------------------------------- 
+Work Process section
+---------------------------------------- 
+*/
+.work-process-section{
+	width: 100%;
+	height: 900px;
+}
+
+.work-process-title{
+	padding-top: 80px;
+	text-align: center;
+}
+
+.work-process-title-1{
+	font-size: 30px;
+	padding: 40px 0;
+	text-transform: capitalize;
+}
+
+.work-process-text{
+	font-family: Nunito Sans;
+	font-size: 16px;
+	padding-bottom: 40px;
+}
+
+.video{
+	padding: 0 90px;
+}
+
+.video video{
+	height: 500px;
+	width: 1175px;
+	text-align: center;
+}
+
+/* 
+---------------------------------------- 
+End Work Process section
+---------------------------------------- 
+*/
+
+
+
+/* 
+---------------------------------------- 
+Service section
+---------------------------------------- 
+*/
+.services-section{
+	width: 100%;
+/*	height: 530px;*/
+	background-color: #f5f5f5;
+	text-align: center;
+	/*padding: 0 210px;*/
+}
+
+.row{
+	
+	margin: auto;
+	overflow: hidden;
+	padding: 10px;
+}
+
+.service{
+		display: inline-block;
+		width: calc(100% /4);
+		margin: 0 -2px;
+		padding: 10px;
+		box-sizing: border-box;
+		cursor: pointer;
+		transition: 0.4s;
+		
+}
+
+.service:hover{
+	background: #ddd;
+}
+
+/*.service-1{
+	padding: 100px 0 0px 15px;
+}
+
+.service-2{
+	padding: 45px 0 0px 15px;
+}*/
+
+.icon i{
+	color: #8b8b8b;
+}
+
+.service-title {
+	padding: 0 0 0 15px;
+}
+
+.service-title h4{
+	color: #282828;
+	font-size: 12px;
+	padding-bottom: 15px;
+	text-transform: capitalize;
+}
+
+.service-text{
+	padding: 0 20px;
+	color: #787878;
+	font-size: 16px;
+	
+}
+
+/* 
+---------------------------------------- 
+End Service section
+---------------------------------------- 
+*/
+
+
+
+/* 
+---------------------------------------- 
+Testimonial section
+---------------------------------------- 
+*/
+
+.testimonial-section{
+	width: 100%;
+	height: 500px;
+	background-color: #10c9c3;
+	text-align: center;
+}
+
+.testimonial-text{
+	font-size: 24px;
+	color: #ffffff;
+	padding-top: 175px;
+	line-height: 35px;
+}
+
+.testimonial-user-name{
+	padding-top: 20px;
+	color: #ffffff;
+	font-size: 12px;
+}
+
+.pagination{
+	padding-left: 610px;
+	padding-top: 105px;
+	display: flex;
+	margin: 10px;
+}
+
+#circle-1 {
+      width: 5px;
+      height: 5px;
+      border-radius: 25px;
+      background: #ffffff;
+}
+
+#circle-2 {
+      width: 10px;
+      height: 10px;
+      border-radius: 25px;
+      background: #ffffff;
+      padding-left: 10px;
+}
+
+#circle-3 {
+      width: 5px;
+      height: 5px;
+      border-radius: 25px;
+      background: #ffffff;
+}
+
+/* 
+---------------------------------------- 
+End Testimonial section
+---------------------------------------- 
+*/
+
+
+
+
+/* 
+---------------------------------------- 
+logo section
+---------------------------------------- 
+*/
+
+.logos-section {
+    padding: 100px 0;
+}
+
+.client-logo{
+	/*width: 100%;*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo1 img{
+    padding: 0 60px;
+}
+
+img:hover{
+	opacity: 0.5;
+	transition: 0.9s;
+}
+
+/* 
+---------------------------------------- 
+End logo section
+---------------------------------------- 
+*/
+
+
+
+.project-section{
+	width: 100%;
+	padding: 100px 0;
+	background-color: #f5f5f5;
+}
+
+.wrapper1{
+	padding: 0 220px;
+}
+
+.project-section-text{
+	text-align: center;
+}
+
+.project-section-title h2{
+	font-size: 30px;
+	font-weight: 700;
+	margin: 10px 0;
+}
+
+.project-section-text p{
+	font-size: 16px;
+	margin-bottom: 15px;
+	line-height: 1.8;
+}
+
+
+.form_group{
+	padding: 10px 0;
+	display: flex;
+}
+
+.form_input { /* note the single underscore */
+  flex: 1;
+  border: none;
+  padding-left: 15px;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+
+#fname{
+	margin-right: 25px;
+}
+
+/*input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline;
+  border: none;
+  box-sizing: border-box;
+}*/
+
+textarea {
+  width: 100%;
+  height: 150px;
+  color: #787878;
+  font-size: 15px;
+  font-family: 'Nunito Sans';
+  padding: 12px 20px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: none;
+  resize: none;
+}
+
+.form_button{
+	text-align: center;
+}
+
+
+
+
+
+.footer {
+    background-color: #141414;
+    color: white;
+    padding: 100px 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.ftr-single-content {
+    display: block;
+    margin-right: 100px;
+    line-height: 1.5;
+}
+
+.ftr-single-content:last-child {
+    margin-right: 0;
+}
+
+.ftr-single-content,
+.ftr-single-content ul li a {
+    color: #767676;
+    font-size: 15px;
+}
+
+.ftr-single-content h5 {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.ftr-single-content p {
+    margin: 0;
+}
+
+.content-1 {
+    margin-right: 150px;
+}
+
+.content-3 {
+    display: flex;
+}
+
+.content-3-column-1 {
+    margin-right: 100px;
+}
+
+
